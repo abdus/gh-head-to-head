@@ -1,0 +1,43 @@
+query {
+  user(login: "thisisabdus") {
+    name
+    bio
+    avatarUrl
+		location
+    email
+    url
+    
+    contributionsCollection {
+      totalCommitContributions
+    	totalPullRequestContributions
+      totalIssueContributions
+    }
+    
+    
+    pullRequests {
+      totalCount
+    }
+    
+    starredRepositories {
+      totalCount
+    }
+    
+    repositoriesContributedTo {
+      totalCount
+    }
+    
+    followers {
+      totalCount
+    }
+    following {
+      totalCount
+    }
+    repositories(last: 1) {
+      totalCount
+    }
+    
+    organizations {
+      totalCount
+    }
+  }
+}

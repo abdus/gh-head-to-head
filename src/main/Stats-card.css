@@ -1,0 +1,69 @@
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 10px;
+    margin: 6px auto;
+    width: 17.5%;
+    box-shadow: 0 0 6px 0 #8080808a;
+    transition: .4s ease-in-out all;
+}
+.card > * {
+    padding: 0 10px;
+}
+.card:hover {
+    box-shadow: 0 0 6px 0 #666666ef;    
+}
+.card .image {
+    width: 50%;
+    margin: 10px auto;
+}
+.card img {
+    box-shadow: 0 0 6px 0 #a255eb8a;
+    width: 100%;
+    border-radius: 50%;
+    transition: .4s ease-in-out all;
+}
+.card img:hover {
+    box-shadow: 0 0 6px 0 #8321df;
+}
+.card .bio {
+    color: #3b3b3b;
+}
+.card .title {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.card .location {
+    font-size: .9rem;
+}
+.user-data {
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+.user-data > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 4px;
+    border-top: 1px solid #cacaca;
+    transition: .2s ease-in-out all;
+}
+.user-data > div:hover {
+    background: #d3d3d38c;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .card {
+        width: 85%;
+    }
+}

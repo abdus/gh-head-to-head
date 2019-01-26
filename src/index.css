@@ -9,6 +9,52 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.gray-text {
+  color: gray;
+}
+.text-center {
+  text-align: center;
+}
+.color-green {
+  color: green;
+}
+.color-blue {
+  color: #1674f0d2
+}
+
+/* Search.js */
+form.enter-gh-username {
+  width: 80%;
+  margin: 60px auto 30px auto;
+}
+form.enter-gh-username input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+  background: transparent;
+} 
+form.enter-gh-username input[type="search"] {
+  width: 80%;
+}
+form.enter-gh-username input[type="submit"] {
+  cursor: pointer;
+  background: #141414;
+  color: #fff;
+  width: 20%;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+form.enter-gh-username h1,
+form.enter-gh-username h2,
+form.enter-gh-username h3,
+form.enter-gh-username h4,
+form.enter-gh-username h5,
+form.enter-gh-username h6 {
+  margin-bottom: 4px;
+}
+form.enter-gh-username p {
+  margin-top: 2px;
 }
